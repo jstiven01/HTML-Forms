@@ -1,12 +1,32 @@
 body {
     background-color: #eceef1;
     color: #4c4c4c;
-    
 }
 
 header {
     text-align: center;
 }
+
+.signin {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.signin * {
+    align-self: center; 
+    margin: 0 4px;   
+}
+
+.signin-button {
+    height: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
 
 main {
     background-color: white;
@@ -15,6 +35,10 @@ main {
     padding: 16px;
     border: 1px solid #c7c7c7;
     border-bottom: none;
+}
+
+.form-header {
+    margin: 16px 0px;
 }
 
 .form-header span {
@@ -30,10 +54,9 @@ main {
     text-decoration: underline;
 }
 
-
-
 fieldset {
     border: none;
+    margin: 16px 0px;
 }
 
 input {
@@ -60,8 +83,6 @@ input:focus {
 .submit-button {
     width: 100%;
     border: none;
-    background-color: #0077c5;
-    color: white;
     border-radius: 4px;
     height: 44px;
 }
@@ -78,6 +99,7 @@ footer{
     text-align: center;
     display: block;
     font-size :14px;
+    margin: 32px 0;
 }
 
 .privacy-policy{
@@ -96,4 +118,23 @@ footer{
 
 .learn-more{
     font-size: 12px;
+}
+
+.footer-links a{
+    margin: 0 2px;
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.page-footer {
+    margin-top: 125px;
+}
+
+.primary {
+    background-color: #0077c5;
+    color: white;
 }
