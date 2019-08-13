@@ -13,21 +13,24 @@ main {
     width: 380px;
     margin: 0 auto;
     padding: 16px;
+    border: 1px solid #c7c7c7;
+    border-bottom: none;
 }
 
 .form-header span {
     font-size: 16px;
 }
 
-.form-header a {
-    font-size: 12px;
+.link {
     text-decoration: none;
     color: #0077C5;
 }
 
-.form-header a:hover {
+.link:hover {
     text-decoration: underline;
 }
+
+
 
 fieldset {
     border: none;
@@ -61,4 +64,36 @@ input:focus {
     color: white;
     border-radius: 4px;
     height: 44px;
+}
+
+.agree-terms{
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+footer{
+    text-align: center;
+    display: block;
+    font-size :14px;
+}
+
+.privacy-policy{
+    background-color: #eceef1;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px;
+    font-size: 10px !important;
+    font-weight: 400;
+    font-family: Helvetica;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+
+}
+
+.learn-more{
+    font-size: 12px;
 }
