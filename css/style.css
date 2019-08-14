@@ -138,3 +138,39 @@ footer{
     background-color: #0077c5;
     color: white;
 }
+
+.logo-title{
+    width: 118px;
+    height: 35px;
+    background: url(/img/img_logosprites.png) 0 0;
+    margin: 20px auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    width: 315px;
+    padding: 0;
+    margin: 20px auto;
+}
+.logo-mint{
+    width: 70px;
+    height: 24px;
+    background: url(/img/img_logosprites.png) -254px 110px;
+
+
+}
+
+.logo-quickbooks{
+    width: 135px;
+    height: 24px;
+    background: url(/img/img_logosprites.png) -115px 110px;
+
+}
+.logo-turbotax{
+    width: 110px;
+    height: 24px;
+    background: url(/img/img_logosprites.png) 0px 110px;
+
+}
