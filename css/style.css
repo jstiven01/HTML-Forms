@@ -1,6 +1,7 @@
 body {
     background-color: #eceef1;
     color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -99,7 +100,7 @@ footer{
     text-align: center;
     display: block;
     font-size :14px;
-    margin: 32px 0;
+    margin: 8px 0;
 }
 
 .privacy-policy{
@@ -150,7 +151,7 @@ ul {
     list-style: none;
     display: flex;
     margin: 0 auto;
-    width: 315px;
+    width: 318px;
     padding: 0;
     margin: 20px auto;
 }
