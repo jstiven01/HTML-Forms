@@ -138,7 +138,7 @@ footer {
 .logo-title {
   width: 118px;
   height: 35px;
-  background: url(/img/img_logosprites.png) 0 0;
+  background: url(../img/img_logosprites.png) 0 0;
   margin: 20px auto;
 }
 
