@@ -4,7 +4,7 @@ Project related to the HTML/CSS curriculum at [Microverse](https://microverse.or
 
 The main goal is to learn how to build forms properly by building something similar to the sign up form from [Mint](https://www.mint.com/).
 
-[You can check it here](https://jstiven01.github.io/HTML-Forms/index.html)
+[You can check it here](https://jstiven01.github.io/HTML-Forms/)
 
 #### Authors
 
